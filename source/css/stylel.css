@@ -1,0 +1,147 @@
+
+/* Imports from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Universal Elements */
+
+html {
+    overflow: hidden;
+
+    font-family: 'Montserrat', monospace;
+}
+
+/* Landing Background */
+
+.big {
+   /* Background Image */
+    background-image: url("../images/bg.png")
+
+   /* Add the background blur */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+
+   /* Make the image well positioned */
+    position: fixed;
+
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tcb {
+   /* Text properties */
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    font-size: xxx-large;
+
+    color: rgb(238, 238, 238);
+
+    cursor: default;
+    user-select: none;
+
+   /* Make the text well positioned */ 
+    position: fixed;
+
+    margin: auto;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tcs {
+    /* Text properties */
+     text-align: center;
+     letter-spacing: 1px;
+
+     font-size: larger;
+
+     color: rgb(238, 238, 238);
+    
+     cursor: default;
+     user-select: none;
+     
+    /* Make the text well positioned */ 
+     position: fixed;
+ 
+     margin: auto;
+     top: 45%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+ }
+ 
+.lb {
+    /* button styling */
+     background-color: rgb(221, 88, 238);
+     color: white;
+     
+     border-radius: 200px;
+     width: 100px;
+     height: 50px;
+
+     cursor: pointer;
+     
+     box-shadow: 4px 10px 4px #00000033;
+
+    /* Make the button well positioned */ 
+     position: fixed;
+    
+     margin: auto;
+     top: 4%;
+     bottom: 0;
+     left: -110;
+     right: 0;
+}
+
+.lb:hover {
+    /* button transition */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.lb2 {
+    /* button styling */
+     background-color: rgb(221, 88, 238);
+     color: rgb(255, 255, 255);
+     
+     border-radius: 200px;
+     width: 100px;
+     height: 50px;
+
+     cursor: pointer;
+     
+     box-shadow: 4px 10px 4px #00000033;
+     
+    /* Make the button well positioned */ 
+     position: fixed;
+    
+     margin: auto;
+     top: 4%;
+     bottom: 0;
+     left: 110;
+     right: 0;
+}
+
+.lb2:hover {
+    /* button transition */
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+}
+
+.lbt {
+    /* Make the button well positioned */ 
+     text-align: center;
+    
+     position: relative;
+
+     margin: auto;
+     top: 28%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
